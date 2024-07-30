@@ -1,0 +1,29 @@
+{
+    "version": "1.0",
+    "name": "hello_world",
+    "lambda_path": "lambda\\hello_world",
+    "func_name": "lambdas/hello_world/index.handler",
+    "resource_type": "lambda",
+    "iam_arn_role": "hello_world_role",
+    "runtime": "java8",
+    "memory": 123,
+    "timeout": 123,
+    "deployment_package": "string",
+    "max_concurrency": 123,
+
+    "url_config": {
+        "auth_type": "NONE",
+        "cors": {
+            "allow_credentials": false,
+            "allow_headers": ["string"],
+            "allow_methods": ["string"],
+            "allow_origins": ["string"],
+            "expose_headers": ["string"],
+            "max_age": 123
+        },
+        "principal": "string",
+        "source_arn": "string"
+    },
+    "ephemeral_storage": 123,
+    "max_retries": 123
+}
